@@ -68,6 +68,17 @@
     .#{$namespace}six-eighths       { @extend .#{$namespace}three-quarters; }
     .#{$namespace}seven-eighths     { width:87.5%; }
 
+    /**
+    * Ninths
+    */
+    .#{$namespace}one-ninth         { width:11.111%; }
+    .#{$namespace}two-ninths        { width:22.222%; }
+    .#{$namespace}three-ninths      { @extend .#{$namespace}one-quarter; }
+    .#{$namespace}four-ninths         { width:44.444%; }
+    .#{$namespace}five-ninths       { width:55.555% }
+    .#{$namespace}six-ninths        { @extend .#{$namespace}two-thirds; }
+    .#{$namespace}seven-ninths        { width:77.777%; }
+    .#{$namespace}eight-ninths        { width:88.888%; }
 
     /**
     * Tenths
